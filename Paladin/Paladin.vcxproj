@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{682DA44D-B34C-4031-9EB4-C920E49B4FC7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Paladin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="bagData.h" />
+    <ClInclude Include="CApple.h" />
+    <ClInclude Include="CBag.h" />
+    <ClInclude Include="CBagDirector.h" />
+    <ClInclude Include="CBagScene.h" />
+    <ClInclude Include="CBagUnit.h" />
+    <ClInclude Include="CBasePerson.h" />
+    <ClInclude Include="CBirthScene.h" />
+    <ClInclude Include="CDevil.h" />
+    <ClInclude Include="CDog.h" />
+    <ClInclude Include="CDrug.h" />
+    <ClInclude Include="CFightDirector.h" />
+    <ClInclude Include="CFightScene.h" />
+    <ClInclude Include="CGameScene1.h" />
+    <ClInclude Include="CGameScene2.h" />
+    <ClInclude Include="CGameScene3.h" />
+    <ClInclude Include="CGarment.h" />
+    <ClInclude Include="CHP.h" />
+    <ClInclude Include="CIoricae.h" />
+    <ClInclude Include="CItem.h" />
+    <ClInclude Include="CItemFactory.h" />
+    <ClInclude Include="CMonster.h" />
+    <ClInclude Include="CMonsterFactory.h" />
+    <ClInclude Include="CMP.h" />
+    <ClInclude Include="CNPCBase.h" />
+    <ClInclude Include="CPig.h" />
+    <ClInclude Include="CPlayer.h" />
+    <ClInclude Include="CPosition.h" />
+    <ClInclude Include="CQiuDao.h" />
+    <ClInclude Include="CRole.h" />
+    <ClInclude Include="CSackcloth.h" />
+    <ClInclude Include="CScene.h" />
+    <ClInclude Include="CSceneDirector.h" />
+    <ClInclude Include="CSceneFactory.h" />
+    <ClInclude Include="CSelectedCursor.h" />
+    <ClInclude Include="CSingleton.h" />
+    <ClInclude Include="CSword.h" />
+    <ClInclude Include="CTaskBase.h" />
+    <ClInclude Include="CTaskDirector.h" />
+    <ClInclude Include="CUtils.h" />
+    <ClInclude Include="CWeapon.h" />
+    <ClInclude Include="CWelcomeScene.h" />
+    <ClInclude Include="CWhips.h" />
+    <ClInclude Include="CYaHui.h" />
+    <ClInclude Include="fightData.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="sceneData.h" />
+    <ClInclude Include="taskData.h" />
+    <ClInclude Include="TinyXml\tinystr.h" />
+    <ClInclude Include="TinyXml\tinyxml.h" />
+    <ClInclude Include="utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CApple.cpp" />
+    <ClCompile Include="CBag.cpp" />
+    <ClCompile Include="CBagDirector.cpp" />
+    <ClCompile Include="CBagScene.cpp" />
+    <ClCompile Include="CBagUnit.cpp" />
+    <ClCompile Include="CBasePerson.cpp" />
+    <ClCompile Include="CBirthScene.cpp" />
+    <ClCompile Include="CDevil.cpp" />
+    <ClCompile Include="CDog.cpp" />
+    <ClCompile Include="CDrug.cpp" />
+    <ClCompile Include="CFightDirector.cpp" />
+    <ClCompile Include="CFightScene.cpp" />
+    <ClCompile Include="CGameScene1.cpp" />
+    <ClCompile Include="CGameScene2.cpp" />
+    <ClCompile Include="CGameScene3.cpp" />
+    <ClCompile Include="CGarment.cpp" />
+    <ClCompile Include="CHP.cpp" />
+    <ClCompile Include="CIoricae.cpp" />
+    <ClCompile Include="CItem.cpp" />
+    <ClCompile Include="CItemFactory.cpp" />
+    <ClCompile Include="CMonster.cpp" />
+    <ClCompile Include="CMonsterFactory.cpp" />
+    <ClCompile Include="CMP.cpp" />
+    <ClCompile Include="CNPCBase.cpp" />
+    <ClCompile Include="CPig.cpp" />
+    <ClCompile Include="CPlayer.cpp" />
+    <ClCompile Include="CPosition.cpp" />
+    <ClCompile Include="CQiuDao.cpp" />
+    <ClCompile Include="CRole.cpp" />
+    <ClCompile Include="CSackcloth.cpp" />
+    <ClCompile Include="CScene.cpp" />
+    <ClCompile Include="CSceneDirector.cpp" />
+    <ClCompile Include="CSceneFactory.cpp" />
+    <ClCompile Include="CSelectedCursor.cpp" />
+    <ClCompile Include="CSword.cpp" />
+    <ClCompile Include="CTaskBase.cpp" />
+    <ClCompile Include="CTaskDirector.cpp" />
+    <ClCompile Include="CUtils.cpp" />
+    <ClCompile Include="CWeapon.cpp" />
+    <ClCompile Include="CWelcomeScene.cpp" />
+    <ClCompile Include="CWhips.cpp" />
+    <ClCompile Include="CYaHui.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TinyXml\tinystr.cpp" />
+    <ClCompile Include="TinyXml\tinyxml.cpp" />
+    <ClCompile Include="TinyXml\tinyxmlerror.cpp" />
+    <ClCompile Include="TinyXml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

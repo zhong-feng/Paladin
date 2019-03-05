@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\TinyXml">
+      <UniqueIdentifier>{4c00aeee-6d3e-4267-a8a3-984a18efb8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计">
+      <UniqueIdentifier>{5b70e223-7a7d-4198-8f1b-9794ac129691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\公共、工具类">
+      <UniqueIdentifier>{813a5ba9-5ab8-4323-8ca9-c3597ec0ae62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\公共、工具类\CPosition">
+      <UniqueIdentifier>{a9f380d4-0ba9-45f0-a5cf-d3beacb893cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\公共、工具类\CUtils">
+      <UniqueIdentifier>{698ececb-c0d0-4cd5-b0c6-91fbb55c4dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统">
+      <UniqueIdentifier>{29698bd0-ca76-4585-827f-24383490c4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\背包系统">
+      <UniqueIdentifier>{c2cbd2e6-aef2-463f-8fbb-4aa2d571e32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\任务系统">
+      <UniqueIdentifier>{59533b2a-6b3c-4130-8386-fb34b1ef975a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链">
+      <UniqueIdentifier>{8461d331-9a21-403f-8000-8af0ddeb749c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景管理">
+      <UniqueIdentifier>{962d0d96-753c-4a22-a15e-75973ee974a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\CScene">
+      <UniqueIdentifier>{cb7a9302-6d80-4f3f-875b-815d5a8fa3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\CBirthScene">
+      <UniqueIdentifier>{9e033d6b-c7b1-4a2a-b0bf-6dcad901cc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\CGameScene3">
+      <UniqueIdentifier>{38a24281-1a1c-4ab2-8672-718bcd3a5f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\CGameScene1">
+      <UniqueIdentifier>{68d90e02-6996-41c4-8622-807c23be8afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\CGameScene2">
+      <UniqueIdentifier>{b9f0d739-d3f1-4b94-afec-3276f772e5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\玩家信息">
+      <UniqueIdentifier>{6644a937-de8c-4453-b183-04f40448cd7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统">
+      <UniqueIdentifier>{1288d98c-3bb0-4e97-94d1-367ea0941708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗管理">
+      <UniqueIdentifier>{ce611f83-78d1-4b94-a009-363489878225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景工厂">
+      <UniqueIdentifier>{abfc628e-7ea4-4e84-a855-5e3303829cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\战斗场景">
+      <UniqueIdentifier>{0ad78476-efa4-4ad4-8cdb-0e956b81379d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象">
+      <UniqueIdentifier>{676d4452-6d6a-4266-bcfa-ce0a206b6f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\CBasePerson">
+      <UniqueIdentifier>{d661ae6c-aada-4723-8e9c-357bf811127c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\角色链">
+      <UniqueIdentifier>{bad14001-fe2a-448e-904f-186d4fdc48c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\角色链\CRole">
+      <UniqueIdentifier>{ae5ef74c-69e9-45d8-b725-cc7b2192594b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\怪物工厂">
+      <UniqueIdentifier>{8933eb13-626b-45f3-b4e3-b4512043f27b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\角色链\求道">
+      <UniqueIdentifier>{b3899433-3f3b-4efa-addd-299f23348477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\角色链\雅惠">
+      <UniqueIdentifier>{334fe830-c0c4-4f57-9545-55a9b2b627b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\怪物链">
+      <UniqueIdentifier>{aae23c09-70a3-440f-84ba-cbf84833ed19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\怪物链\CMonster">
+      <UniqueIdentifier>{1e6f94ac-5bd0-4597-9ac1-a6c90f404b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\怪物链\CPig">
+      <UniqueIdentifier>{ae1a2f36-40f8-4737-8812-d1f824d090a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\怪物链\CDog">
+      <UniqueIdentifier>{b81a9bea-e2fa-4830-a7b1-f6fc7a973e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\战斗系统\战斗对象\怪物链\CDevil">
+      <UniqueIdentifier>{ef77a734-c2d2-4acd-883b-ee5726ba5917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\背包系统\背包单元格">
+      <UniqueIdentifier>{b0af0421-a69e-44cc-a2d8-f3dbbf029dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\背包系统\选择光标">
+      <UniqueIdentifier>{69c0635f-199a-4c66-ac6b-cf2522c0b910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\菜单场景">
+      <UniqueIdentifier>{3c95ffff-a5be-4028-bba9-cf5b87e60ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\背包系统\背包">
+      <UniqueIdentifier>{d1398429-347b-4189-bb87-f97c70455f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\背包系统\背包管理">
+      <UniqueIdentifier>{a8e4e702-1b50-42e9-9f16-a3248254a237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\菜单场景\背包菜单">
+      <UniqueIdentifier>{23db4866-02c7-4bed-89d0-9e4b3d97ad52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链">
+      <UniqueIdentifier>{19814c86-8049-49ac-bf4e-3a8b2654e653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链">
+      <UniqueIdentifier>{1cb6a96e-57bd-401f-a6b7-dcd467be573d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CItem">
+      <UniqueIdentifier>{077a199e-f1c1-446d-8c5e-f5b98061fdcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CDrug">
+      <UniqueIdentifier>{14cd4724-11d0-4766-b44c-973fbda26d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CDrug\CHP">
+      <UniqueIdentifier>{078e7091-ae9e-4d39-86c6-4ac0fc1675f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CDrug\CMP">
+      <UniqueIdentifier>{1eb524fe-66ca-4385-b557-3b0ddc128f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CWeapon">
+      <UniqueIdentifier>{abca2a02-81e0-43c0-a9a0-b885e77e46f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CWeapon\CSword">
+      <UniqueIdentifier>{d00ea936-f474-4772-a7ba-68327bd2c88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CWeapon\CWhips">
+      <UniqueIdentifier>{00640205-da56-44d7-a5ca-e2fd3b81ed6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CTask">
+      <UniqueIdentifier>{2a1f3ec6-a5b4-42d7-994b-2759785ec372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CTask\CApple">
+      <UniqueIdentifier>{8d920fb0-ce64-4803-9912-7d5040c27e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CGarment">
+      <UniqueIdentifier>{9781ea1a-ce7f-44d3-81cd-cda7f0d5813d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CGarment\CIoricae">
+      <UniqueIdentifier>{a19da15c-7b97-4903-9051-f079e510f9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品链\CGarment\CSackcloth">
+      <UniqueIdentifier>{ef3a9d10-f995-4e24-9ea7-313f646c3129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\物品链\物品工厂">
+      <UniqueIdentifier>{87a59116-6ce3-44f8-84c9-e94af05f87e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\游戏场景系统\场景链\欢迎场景">
+      <UniqueIdentifier>{87e0320d-f310-412b-b86d-71aa1dd176a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\任务系统\任务管理">
+      <UniqueIdentifier>{75585e0a-cf8f-488b-8158-a679f484f7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\任务系统\任务链">
+      <UniqueIdentifier>{62bfde94-0edf-42d9-bea9-bc636ae2ebc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\任务系统\任务链\CTaskBase">
+      <UniqueIdentifier>{baebdea4-6805-4312-a6a2-8ac35ab0b141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\任务系统\任务NPC">
+      <UniqueIdentifier>{c5637fb6-17ef-475e-b7e8-2128a9fe264e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏框架设计\任务系统\任务NPC\NPCBase">
+      <UniqueIdentifier>{5be7b784-33e6-4e1d-bff1-2c886264eae2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSingleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPosition.h">
+      <Filter>游戏框架设计\公共、工具类\CPosition</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtils.h">
+      <Filter>游戏框架设计\公共、工具类\CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CScene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneData.h">
+      <Filter>游戏框架设计\游戏场景系统</Filter>
+    </ClInclude>
+    <ClInclude Include="CBirthScene.h">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CBirthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>游戏框架设计\游戏场景系统\玩家信息</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXml\tinystr.h">
+      <Filter>头文件\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXml\tinyxml.h">
+      <Filter>头文件\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene1.h">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CGameScene1</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene2.h">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CGameScene2</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene3.h">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CGameScene3</Filter>
+    </ClInclude>
+    <ClInclude Include="fightData.h">
+      <Filter>游戏框架设计\战斗系统</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>游戏框架设计\战斗系统\战斗对象\怪物链\CMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CRole.h">
+      <Filter>游戏框架设计\战斗系统\战斗对象\角色链\CRole</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneFactory.h">
+      <Filter>游戏框架设计\游戏场景系统\场景工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="CFightScene.h">
+      <Filter>游戏框架设计\游戏场景系统\场景链\战斗场景</Filter>
+    </ClInclude>
+    <ClInclude Include="CFightDirector.h">
+      <Filter>游戏框架设计\战斗系统\战斗管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CBasePerson.h">
+      <Filter>游戏框架设计\战斗系统\战斗对象\CBasePerson</Filter>
+    </ClInclude>
+    <ClInclude Include="CYaHui.h">
+      <Filter>游戏框架设计\战斗系统\战斗对象\角色链\雅惠</Filter>
+    </ClInclude>
+    <ClInclude Include="CQiuDao.h">
+      <Filter>游戏框架设计\战斗系统\战斗对象\角色链\求道</Filter>
+    </ClInclude>
+    <ClInclude Include="CDog.h">
+      <Filter>游戏框架设计\战斗系统\战斗对象\怪物链\CDog</Filter>
+    </ClInclude>
+    <ClInclude Include="CPig.h">
+      <Filter>游戏框架设计\战斗系统\战斗对象\怪物链\CPig</Filter>
+    </ClInclude>
+    <ClInclude Include="CDevil.h">
+      <Filter>游戏框架设计\战斗系统\战斗对象\怪物链\CDevil</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterFactory.h">
+      <Filter>游戏框架设计\战斗系统\怪物工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="bagData.h">
+      <Filter>游戏框架设计\背包系统</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>游戏框架设计\物品链\物品链\CItem</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrug.h">
+      <Filter>游戏框架设计\物品链\物品链\CDrug</Filter>
+    </ClInclude>
+    <ClInclude Include="CHP.h">
+      <Filter>游戏框架设计\物品链\物品链\CDrug\CHP</Filter>
+    </ClInclude>
+    <ClInclude Include="CMP.h">
+      <Filter>游戏框架设计\物品链\物品链\CDrug\CMP</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeapon.h">
+      <Filter>游戏框架设计\物品链\物品链\CWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CSword.h">
+      <Filter>游戏框架设计\物品链\物品链\CWeapon\CSword</Filter>
+    </ClInclude>
+    <ClInclude Include="CGarment.h">
+      <Filter>游戏框架设计\物品链\物品链\CGarment</Filter>
+    </ClInclude>
+    <ClInclude Include="CApple.h">
+      <Filter>游戏框架设计\物品链\物品链\CTask\CApple</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhips.h">
+      <Filter>游戏框架设计\物品链\物品链\CWeapon\CWhips</Filter>
+    </ClInclude>
+    <ClInclude Include="CIoricae.h">
+      <Filter>游戏框架设计\物品链\物品链\CGarment\CIoricae</Filter>
+    </ClInclude>
+    <ClInclude Include="CSackcloth.h">
+      <Filter>游戏框架设计\物品链\物品链\CGarment\CSackcloth</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemFactory.h">
+      <Filter>游戏框架设计\物品链\物品工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="CBagUnit.h">
+      <Filter>游戏框架设计\背包系统\背包单元格</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectedCursor.h">
+      <Filter>游戏框架设计\背包系统\选择光标</Filter>
+    </ClInclude>
+    <ClInclude Include="CBag.h">
+      <Filter>游戏框架设计\背包系统\背包</Filter>
+    </ClInclude>
+    <ClInclude Include="CBagDirector.h">
+      <Filter>游戏框架设计\背包系统\背包管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneDirector.h">
+      <Filter>游戏框架设计\游戏场景系统\场景管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CBagScene.h">
+      <Filter>游戏框架设计\游戏场景系统\场景链\菜单场景\背包菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="CWelcomeScene.h">
+      <Filter>游戏框架设计\游戏场景系统\场景链\欢迎场景</Filter>
+    </ClInclude>
+    <ClInclude Include="taskData.h">
+      <Filter>游戏框架设计\任务系统</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskBase.h">
+      <Filter>游戏框架设计\任务系统\任务链\CTaskBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskDirector.h">
+      <Filter>游戏框架设计\任务系统\任务管理</Filter>
+    </ClInclude>
+    <ClInclude Include="CNPCBase.h">
+      <Filter>游戏框架设计\任务系统\任务NPC\NPCBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPosition.cpp">
+      <Filter>游戏框架设计\公共、工具类\CPosition</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtils.cpp">
+      <Filter>游戏框架设计\公共、工具类\CUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CScene</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBirthScene.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CBirthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>游戏框架设计\游戏场景系统\玩家信息</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinystr.cpp">
+      <Filter>头文件\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxml.cpp">
+      <Filter>头文件\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxmlerror.cpp">
+      <Filter>头文件\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxmlparser.cpp">
+      <Filter>头文件\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene1.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CGameScene1</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene2.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CGameScene2</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene3.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景链\CGameScene3</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗对象\怪物链\CMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CRole.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗对象\角色链\CRole</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneFactory.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景工厂</Filter>
+    </ClCompile>
+    <ClCompile Include="CFightScene.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景链\战斗场景</Filter>
+    </ClCompile>
+    <ClCompile Include="CFightDirector.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CBasePerson.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗对象\CBasePerson</Filter>
+    </ClCompile>
+    <ClCompile Include="CYaHui.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗对象\角色链\雅惠</Filter>
+    </ClCompile>
+    <ClCompile Include="CQiuDao.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗对象\角色链\求道</Filter>
+    </ClCompile>
+    <ClCompile Include="CDog.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗对象\怪物链\CDog</Filter>
+    </ClCompile>
+    <ClCompile Include="CPig.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗对象\怪物链\CPig</Filter>
+    </ClCompile>
+    <ClCompile Include="CDevil.cpp">
+      <Filter>游戏框架设计\战斗系统\战斗对象\怪物链\CDevil</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterFactory.cpp">
+      <Filter>游戏框架设计\战斗系统\怪物工厂</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CItem</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrug.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CDrug</Filter>
+    </ClCompile>
+    <ClCompile Include="CHP.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CDrug\CHP</Filter>
+    </ClCompile>
+    <ClCompile Include="CMP.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CDrug\CMP</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeapon.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CSword.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CWeapon\CSword</Filter>
+    </ClCompile>
+    <ClCompile Include="CGarment.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CGarment</Filter>
+    </ClCompile>
+    <ClCompile Include="CApple.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CTask\CApple</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhips.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CWeapon\CWhips</Filter>
+    </ClCompile>
+    <ClCompile Include="CIoricae.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CGarment\CIoricae</Filter>
+    </ClCompile>
+    <ClCompile Include="CSackcloth.cpp">
+      <Filter>游戏框架设计\物品链\物品链\CGarment\CSackcloth</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemFactory.cpp">
+      <Filter>游戏框架设计\物品链\物品工厂</Filter>
+    </ClCompile>
+    <ClCompile Include="CBagUnit.cpp">
+      <Filter>游戏框架设计\背包系统\背包单元格</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectedCursor.cpp">
+      <Filter>游戏框架设计\背包系统\选择光标</Filter>
+    </ClCompile>
+    <ClCompile Include="CBag.cpp">
+      <Filter>游戏框架设计\背包系统\背包</Filter>
+    </ClCompile>
+    <ClCompile Include="CBagDirector.cpp">
+      <Filter>游戏框架设计\背包系统\背包管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneDirector.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CBagScene.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景链\菜单场景\背包菜单</Filter>
+    </ClCompile>
+    <ClCompile Include="CWelcomeScene.cpp">
+      <Filter>游戏框架设计\游戏场景系统\场景链\欢迎场景</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskBase.cpp">
+      <Filter>游戏框架设计\任务系统\任务链\CTaskBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskDirector.cpp">
+      <Filter>游戏框架设计\任务系统\任务管理</Filter>
+    </ClCompile>
+    <ClCompile Include="CNPCBase.cpp">
+      <Filter>游戏框架设计\任务系统\任务NPC\NPCBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

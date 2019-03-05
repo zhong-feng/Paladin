@@ -1,0 +1,26 @@
+        <?xml version="1.0" encoding="gb2312" standalone="yes"?>
+        <TaskSystem>
+            <Task id = "1" TaskType = "1" Name = "采苹果" ProvideNpcID="152" RegainNpcID="152">
+                <Info>能帮我采果子吗？</Info>
+                <Receipt>谢谢你帮我这个忙！</Receipt>
+                <Accept>小意思。</Accept>
+                <Refuse>我不敢去～</Refuse>
+                <Repeat>你已经接受了改任务！</Repeat>
+                <Unfiniseded>好像还不够呀！</Unfiniseded>
+                <Finished>好新鲜的水果，真好吃。</Finished>
+                <ItemID Count ="10" >30</ItemID>
+				<Givemoney>1000</Givemoney>
+				<GiveItem>10</GiveItem>
+            </Task>
+            <Task id = "2" TaskType = "2" Name = "扰民的野狗" ProvideNpcID="153" RegainNpcID="153">
+                <Info>郊外的野狗太多了，#你可以帮我赶走它们吗？</Info>
+                <Receipt>谢谢你帮我这个忙！</Receipt>
+                <Accept>小意思。</Accept>
+                <Refuse>我不敢去～</Refuse>
+                <Unfiniseded>还是很多啊，#多赶走一些吧！</Unfiniseded>
+                <Finished>真是太感谢你了，现在好多了</Finished>
+                <MonsterID Count ="10" >50</MonsterID>
+				<Givemoney>1000</Givemoney>
+				<GiveItem>20</GiveItem>
+            </Task>
+         </TaskSystem>

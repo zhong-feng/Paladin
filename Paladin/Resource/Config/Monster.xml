@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<monsterSystem>
+    <monster id="50">
+	    <name>狗</name>
+		<HP>500 </HP>
+		<MP>500</MP>
+		<attack>100</attack>
+		<defence>130</defence>
+		<territory>3</territory>
+		<moveSpeed>1000</moveSpeed>
+	</monster>
+	
+	<monster id="51">
+	    <name>猪</name>
+		<HP>700 </HP>
+		<MP>700</MP>
+		<attack>120</attack>
+		<defence>120</defence>
+		<territory>3</territory>
+		<moveSpeed>500</moveSpeed>
+	</monster>
+	
+	<monster id="52">
+	    <name>魔鬼</name>
+		<HP>1000 </HP>
+		<MP>1000</MP>
+		<attack>150</attack>
+		<defence>200</defence>
+		<territory>2</territory>
+		<moveSpeed>2000</moveSpeed>
+	</monster>
+
+ </monsterSystem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<roleSystem>
+    <role id="1">
+	    <name>李求仙</name>
+		<strength>10</strength>
+		<agility>6</agility>
+		<intelligence>4</intelligence>
+		<basicAttack>280</basicAttack>
+		<basicDefence>130</basicDefence>
+	</role>
+	
+	<role id="2">
+	    <name>赵灵心</name>
+		<strength>4</strength>
+		<agility>6</agility>
+		<intelligence>10</intelligence>
+		<basicAttack>250</basicAttack>
+		<basicDefence>150</basicDefence>
+	</role>
+	
+
+ </roleSystem>

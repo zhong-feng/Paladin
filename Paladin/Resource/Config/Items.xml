@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<root>
+     <Item id = "1" name = "止血散" desc = "一般的止血散" buyPrice = "100" sellPrice ="50" hp = "500" />     
+     <Item id = "2" name = "回气散" desc = "一般的回气散"  buyPrice = "120" sellPrice ="60" mp = "500"/>       
+     <Item id = "10" name = "铁剑" desc = "普通的剑也加攻击力"   buyPrice = "500"  sellPrice = "250"  attack = "80" strength="10"/> 
+     <Item id = "11" name = "长鞭" desc = "鞭子加智力，好奇怪"  buyPrice = "600"  sellPrice = "300"  attack = "70" intelligence="10"/> 
+     <Item id = "20" name = "铠甲" desc = "坚固只是错觉"  buyPrice = "800" sellPrice = "400"  defence = "80" />
+	 <Item id = "21" name = "锦衣" desc = "有钱人啊"  buyPrice = "800" sellPrice = "400"  defence = "70" agility="3"/>
+	 <Item id = "30" name = "苹果" desc = "任务物品"  sellPrice = "1"  />
+	 
+ </root>
